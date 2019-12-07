@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SwiftFramework/Classes/**/*"
+  "source_files": "SwiftFramework/Classes/**/*",
+  "dependencies": {
+    "ObjCPPFramework": [
+      "0.0.1"
+    ]
+  }
 }

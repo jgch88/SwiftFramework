@@ -313,10 +313,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftFramework_Example/Pods-SwiftFramework_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjCPPFramework/ObjCPPFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftFramework/SwiftFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjCPPFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

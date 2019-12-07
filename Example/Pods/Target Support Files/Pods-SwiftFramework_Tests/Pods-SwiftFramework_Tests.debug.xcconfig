@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftFramework"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ObjCPPFramework" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftFramework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftFramework/SwiftFramework.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "SwiftFramework"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ObjCPPFramework/ObjCPPFramework.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftFramework/SwiftFramework.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "ObjCPPFramework" -framework "SwiftFramework"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
