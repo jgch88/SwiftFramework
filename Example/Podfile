@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftFramework_Example' do
+  pod 'SwiftFramework', :path => '../'
+
+  target 'SwiftFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
