@@ -1,7 +1,7 @@
 PODS:
-  - ObjCPPFramework (0.0.4)
+  - ObjCPPFramework (0.0.6)
   - SwiftFramework (0.1.0):
-    - ObjCPPFramework (= 0.0.4)
+    - ObjCPPFramework (= 0.0.6)
 
 DEPENDENCIES:
   - SwiftFramework (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ObjCPPFramework: 506c234bdb31a9bb2ea3139b5cec9efb22621ead
-  SwiftFramework: 57a25ab65ca013cd454292b8b1fd4f694bcd43dc
+  ObjCPPFramework: f22f559f44dc320ff7f03a8fc6353ef024769261
+  SwiftFramework: 8b3df61d5891c0b0f7d08e74e1a6f0cfac471e0c
 
 PODFILE CHECKSUM: 1c3f193982170a07848e8078d9408cad8e3d5fe6
 
