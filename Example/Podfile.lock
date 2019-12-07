@@ -1,0 +1,23 @@
+PODS:
+  - ObjCPPFramework (0.0.4)
+  - SwiftFramework (0.1.0):
+    - ObjCPPFramework (= 0.0.4)
+
+DEPENDENCIES:
+  - SwiftFramework (from `../`)
+
+SPEC REPOS:
+  https://github.com/jgch88/iosPods.git:
+    - ObjCPPFramework
+
+EXTERNAL SOURCES:
+  SwiftFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjCPPFramework: 506c234bdb31a9bb2ea3139b5cec9efb22621ead
+  SwiftFramework: 57a25ab65ca013cd454292b8b1fd4f694bcd43dc
+
+PODFILE CHECKSUM: 1c3f193982170a07848e8078d9408cad8e3d5fe6
+
+COCOAPODS: 1.8.4

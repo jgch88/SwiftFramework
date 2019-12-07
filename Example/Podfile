@@ -1,7 +1,5 @@
 source 'https://github.com/jgch88/iosPods'
 
-use_frameworks!
-
 target 'SwiftFramework_Example' do
   pod 'SwiftFramework', :path => '../'
 
